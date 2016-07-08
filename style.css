@@ -1,4 +1,4 @@
-html body{
+body{
   margin: 0;
   padding: 0;
   background: #EDEFED;
@@ -68,10 +68,13 @@ nav ul{
   padding-top: 1%;
 }
 
-nav ul li{
+nav ul a{
+  text-decoration: none;
   margin-right: 3%;
   font-size: 14px;
+  color: white;
 }
+
       /*logo*/
 
 .logo{
@@ -101,6 +104,32 @@ span{
 
          /*section*/
 section{
-  margin-top: 37%;
 
+  margin-top: 35%;
+  margin-left: -3%;
+
+}
+.input-group{
+  margin-right: -2%;
+}
+
+.img-text{
+  display: flex;
+  margin-top: -7%;
+  width: 100%;
+  margin-left: 10%;
+  justify-content:space-between;
+}
+
+.card-img{
+  height: 300px;
+  flex: 2
+}
+
+.text{
+
+}
+
+.together{
+  flex: 1;
 }
