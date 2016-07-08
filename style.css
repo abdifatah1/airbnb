@@ -1,4 +1,4 @@
-body{
+html body{
   margin: 0;
   padding: 0;
   background: #EDEFED;
@@ -8,6 +8,7 @@ video{
   position: absolute;
   width: 100%;
   z-index: -1000;
+
 
 }
           /*header container*/
@@ -25,7 +26,6 @@ video{
 
 .video-conatiner{
   width: 100%;
-  height: 100%;
   position: absolute;
   top: 0;
   left: 0;
@@ -113,23 +113,95 @@ section{
   margin-right: -2%;
 }
 
+        /*image after te input*/
 .img-text{
   display: flex;
   margin-top: -7%;
   width: 100%;
-  margin-left: 10%;
-  justify-content:space-between;
+
+
 }
 
 .card-img{
   height: 300px;
-  flex: 2
+  flex: 2;
+  margin-left: 10%;
 }
 
 .text{
+    background-color: white;
+    margin-right: 15%;
+    margin-left: -1%;
+}
+  /*title inside the text*/
+.title{
+  margin: 10% 10% 5% 10%;
+  font-size: 26px;
+  font-weight: bold;
+  font-family: circular, "helvetica neue", helvetica, arial, sans-serif;
 
+}
+
+  /*paraghraph inside the text box*/
+.this{
+  font-size: 18px;
+  margin: 2% 10%;
 }
 
 .together{
   flex: 1;
+}
+
+.second_headline{
+  display: flex;
+  flex-direction: column;
+}
+.second_h {
+  font-size: 32px;
+  font-family: circular, "helvetica neue", helvetica, arial, sans-serif;
+  font-weight: bold;
+}
+
+.second_p {
+  font-size: 16px;
+
+}
+
+
+.cities{
+  display:flex;
+  height: 300px;
+  flex-wrap: wrap;
+
+
+}
+
+.col{
+  flex: 1;
+  margin-right:2%;
+}
+
+
+.sanfran{
+  background-image: url("sanfran.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  margin-left: 10%;
+}
+
+.newyork{
+  background-image:url("newyork.jpg");
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.london{
+  background-image:url("london.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  margin-right: 10%
 }
