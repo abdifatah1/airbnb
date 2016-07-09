@@ -205,3 +205,10 @@ section{
   text-align: center;
   margin-right: 10%
 }
+
+#estimer-xs{
+  background-color: #007a87;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+}
