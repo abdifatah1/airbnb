@@ -118,24 +118,25 @@ section{
   display: flex;
   margin-top: -7%;
   width: 100%;
+  padding-left: 10%;
+
 
 
 }
 
 .card-img{
-  height: 300px;
   flex: 2;
-  margin-left: 10%;
+  height: 300px;
 }
 
 .text{
     background-color: white;
     margin-right: 15%;
-    margin-left: -1%;
+    margin-left:-1%;
 }
   /*title inside the text*/
-.title{
-  margin: 10% 10% 5% 10%;
+h3{
+  padding: 10%;
   font-size: 26px;
   font-weight: bold;
   font-family: circular, "helvetica neue", helvetica, arial, sans-serif;
@@ -143,13 +144,9 @@ section{
 }
 
   /*paraghraph inside the text box*/
-.this{
+.paragraph{
   font-size: 18px;
-  margin: 2% 10%;
-}
-
-.together{
-  flex: 1;
+  padding: 2% 10%;
 }
 
 .second_headline{
